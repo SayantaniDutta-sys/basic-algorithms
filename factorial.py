@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 11 16:51:20 2025
+
+@author: 91912
+"""
+
+n = int(input("Enter a number: "))
+
+factorial = 1
+for i in range(1, n + 1):
+    factorial = factorial * i
+
+print("The factorial of", n, "is:", factorial)
